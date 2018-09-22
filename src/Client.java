@@ -21,8 +21,18 @@ public class Client extends Application{
 	}
 	
 	public void start(Stage primaryStage) throws IOException {
-		final String serverAddress = "localhost";
+		/*/setting up connection to the server
+		/final String serverAddress = "localhost";
 		final int port = 81;
 		Socket connection = new Socket(serverAddress, port);
+		*/
+		
+		//graphics
+		Stage stage = new Stage();
+		Pane connectionMenu = new Pane();
+		Scene connectionScene = new Scene(connectionMenu,500,500);
+		stage.setScene(connectionScene);
+		stage.setTitle("Allen's Chat");
+		stage.show();
 	}
 }
