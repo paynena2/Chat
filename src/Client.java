@@ -73,5 +73,6 @@ public class Client extends Application{
 		stage.setScene(connectionScene);
 		stage.setTitle("Allen's Chat");
 		stage.show();
+		
 	}
 }
