@@ -1,6 +1,8 @@
 /* Made by Allen Payne
  *  this will be the client class for my chat program
  */
+//Next thing to do: create the submit button and pull information from the textfields, then connect to the server. Change the scene to 
+//one that the user can enter messages and see the chats that are being sent
 //Graphics imports
 import javafx.application.Application;
 import javafx.stage.Stage;

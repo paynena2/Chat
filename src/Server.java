@@ -1,6 +1,8 @@
 /* Allen Payne
  * Server Class for my chat
  */
+//To:Do -> create the actual server, display in the textarea when users join, their usernames, and their IPs. Create threads to send messages to all
+//clients and another thread to recieve messages from all clients
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
