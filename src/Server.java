@@ -17,13 +17,18 @@ public class Server extends Application {
 	}
 	
 	public void start(Stage primaryStage) {
+		//creating the graphics
 		Stage stage = new Stage();
 		StackPane sPane = new StackPane();
 		TextArea serverStatus = new TextArea();
+		Scene scene = new Scene(sPane, 500, 500);
+		
+		//setting the padding along the edges, and making the text area uneditable
 		serverStatus.setEditable(false);
 		sPane.setPadding(new Insets(20,20,20,20));
 		sPane.getChildren().add(serverStatus);
-		Scene scene = new Scene(sPane, 500, 500);
+		
+		//fixing alignment and showing the stage
 		sPane.setAlignment(Pos.CENTER);
 		stage.setScene(scene);
 		stage.setTitle("Server Status");
